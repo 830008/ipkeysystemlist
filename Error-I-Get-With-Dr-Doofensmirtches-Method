@@ -1,0 +1,27 @@
+SyntaxError: Unexpected token " in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/body-parser/lib/types/json.js:158:10)
+    at parse (/rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/body-parser/lib/types/json.js:83:15)
+    at /rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/raw-body/index.js:224:16)
+    at done (/rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:201:15)
+    at endReadableNT (_stream_readable.js:1130:12)
+    at processTicksAndRejections (internal/process/task_queues.js:83:17)
+node v12.0.0, with pnpm
+Installing...
+Performing headless installation
+Total install time: 7061ms
+🏪📇 Your app is listening on port 3000
+SyntaxError: Unexpected token " in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/body-parser/lib/types/json.js:158:10)
+    at parse (/rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/body-parser/lib/types/json.js:83:15)
+    at /rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/raw-body/index.js:224:16)
+    at done (/rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/rbd/pnpm-volume/1c692240-ea85-414e-93f2-dba9f8e3a09d/node_modules/.registry.npmjs.org/express/4.17.1/node_modules/express/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:201:15)
+    at endReadableNT (_stream_readable.js:1130:12)
+    at processTicksAndRejections (internal/process/task_queues.js:83:17)
